@@ -1,0 +1,30 @@
+{
+ "name"         : "Direct [COLOR FF0084FF]-[/COLOR] Vstream ([COLORgreen][/COLOR])",
+ "repository"   : "repository.vstream",
+ "plugin"       : "plugin.video.vstream",
+ "priority"     : 200,
+ "id"           : "zonal.vstream.o",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
+  [
+   {
+    "link"      : "plugin://plugin.video.vstream/?site=globalSearch&function=globalSearch&searchtext={title}+&readdb=False",
+    "steps"     : [],
+    "action"    : "ACTIVATE"
+   }
+  ]
+ ],
+ "tvshows"      : [
+  [
+   {
+    "link"      : "plugin://plugin.video.vstream/?site=globalSearch&function=globalSearch&searchtext={showname}+{season}+&readdb=False",
+    "steps"     : [],
+    "action"    : "ACTIVATE"
+   }
+  ]
+ ],
+ "musicvideos"  : [],
+ "music"        : [],
+ "live"         : []
+}
