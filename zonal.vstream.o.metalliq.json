@@ -9,7 +9,7 @@
  "movies"       : [
   [
    {
-    "link"      : "plugin://plugin.video.vstream/?site=globalSearch&function=globalSearch&searchtext={title}+&readdb=False",
+    "link"      : "plugin://plugin.video.vstream/?disp=search1&function=none&readdb=True&sFav=none&searchtext={title}&site=globalSearch&siteUrl=http%3a%2f%2fvenom&title=Recherche%3a%20{title}&type=film",
     "steps"     : [],
     "action"    : "ACTIVATE"
    }
@@ -18,7 +18,7 @@
  "tvshows"      : [
   [
    {
-    "link"      : "plugin://plugin.video.vstream/?site=globalSearch&function=globalSearch&searchtext={showname}+{season}+&readdb=False",
+    "link"      : "plugin://plugin.video.vstream/?disp=search1&function=none&readdb=True&sFav=none&searchtext={showname}+{season}&site=globalSearch&siteUrl=http%3a%2f%2fvenom&title=Recherche%3a%20{showname}&type=serie",
     "steps"     : [],
     "action"    : "ACTIVATE"
    }
