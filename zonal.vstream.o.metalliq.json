@@ -1,5 +1,5 @@
 {
- "name"         : "Direct [COLOR FF0084FF]-[/COLOR] Vstream ([COLORgreen][/COLOR])",
+ "name"         : "Zonal [COLOR FF0084FF]-[/COLOR] Vstream ([COLORgreen][/COLOR])",
  "repository"   : "repository.vstream",
  "plugin"       : "plugin.video.vstream",
  "priority"     : 200,
@@ -9,7 +9,7 @@
  "movies"       : [
   [
    {
-    "link"      : "plugin://plugin.video.vstream/?disp=search1&function=none&readdb=True&sFav=none&searchtext={title}&site=globalSearch&siteUrl=http%3a%2f%2fvenom&title=Recherche%3a%20{title}&type=film",
+    "link"      : "plugin://plugin.video.vstream/?function=showSearch&sCat=1&searchtext={title}&site=globalSearch&siteUrl=http%3a%2f%2fvenom&title=Recherche%20(Films)",
     "steps"     : [],
     "action"    : "ACTIVATE"
    }
@@ -18,7 +18,7 @@
  "tvshows"      : [
   [
    {
-    "link"      : "plugin://plugin.video.vstream/?disp=search1&function=none&readdb=True&sFav=none&searchtext={showname}+{season}&site=globalSearch&siteUrl=http%3a%2f%2fvenom&title=Recherche%3a%20{showname}&type=serie",
+    "link"      : "plugin://plugin.video.vstream/?function=showSearch&sCat=2&searchtext={showname}+{season}&site=globalSearch&siteUrl=http%3a%2f%2fvenom&title=Recherche%20(S%c3%a9ries%2fAnim%c3%a9s)",
     "steps"     : [],
     "action"    : "ACTIVATE"
    }
